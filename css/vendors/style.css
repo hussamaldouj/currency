@@ -269,7 +269,7 @@ body {
 }
 /*end main gold*/
 footer{
-  grid-area: 14/2/17/2;
+  grid-area: 14/1/17/4;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(1,min-content);
@@ -384,6 +384,13 @@ footer ul li a .fa{
 }
 }
 @media only screen and (max-width: 786px){
+  .content{
+    margin: 5px;
+    grid-template-columns: 20% 1fr 20%;
+  }
+  .main_gold{
+    grid-area: 10/2/14/2;
+  }
   .bar_text,
 .bar_text_1,
 .bar_text_2,
@@ -396,8 +403,11 @@ footer ul li a .fa{
 .bar_text_9,.nav_1,.nav_2,.nav_3,.side_1,.side_2,.side_3{
   font-size: 14px;
 }
+.main_dollar{
+  grid-area: 5/2/9/2;
+}
 .bar_dollars{
-  grid-area: 2/2/3/2;
+  grid-area: 4/2/4/2;
   display: grid;  
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(2,min-content);
@@ -406,7 +416,7 @@ footer ul li a .fa{
                        "bar_text_2 bar_text_2 bar_text_2 bar_text_2 bar_text_2";
 }
 .bar_gold{
-  grid-area: 8/2/9/2;
+  grid-area: 9/2/9/2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(1,min-content);

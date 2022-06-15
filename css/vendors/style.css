@@ -278,7 +278,7 @@ footer{
     justify-items: center;
 }
 .sideleft{
-  grid-area: 6/1/17/1;
+  grid-area: 8/1/17/1;
   background: url(/img/left.png) no-repeat center center;
   background-size: contain;
   height: 100%;
